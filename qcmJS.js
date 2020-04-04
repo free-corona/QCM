@@ -4,6 +4,7 @@ document.getElementById ( "qcm" ).style.display = "none"
 function StartTest () {
     document.getElementsByTagName ( "section" )[ 0 ].style.display = "none";
     document.getElementById ( "qcm" ).style.display = "block";
+    for(let j=1;j<28;j++){questions[ j ].style.display = "none";}
 }
 
 var num = 0;
